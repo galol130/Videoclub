@@ -8,7 +8,7 @@ namespace Videoclub
 {
     class Rental
     {
-        static SqlConnection connection = new SqlConnection("Data Source=LAPTOP-GGP\\SQLEXPRESS;Initial Catalog=Videoclub;Integrated Security=True");
+        static SqlConnection connection = new SqlConnection("Data Source=LAPTOP-GGP\\SQLEXPRESS;Initial Catalog=Videoclub2;Integrated Security=True");
         static string query;
         static SqlCommand command = new SqlCommand();
         static SqlDataReader reader;
